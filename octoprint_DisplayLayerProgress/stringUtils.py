@@ -77,9 +77,9 @@ def secondsToText(secs, hideSeconds=False):
             result = "{}h".format(hours) + "{}m".format(minutes) + "{}s".format(seconds)
     elif (minutes > 0):
         if (hideSeconds == True):
-            result = "{}m".format(minutes)
+            result = "00h{}m".format(minutes)
         else:
-            result = "{}m".format(minutes) + "{}s".format(seconds)
+            result = "00h{}m".format(minutes) + "{}s".format(seconds)
     elif (seconds >= 0):
         result = "{}s".format(seconds)
 
