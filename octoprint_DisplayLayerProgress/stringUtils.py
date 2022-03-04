@@ -81,7 +81,7 @@ def secondsToText(secs, hideSeconds=False):
         else:
             result = "00h{}m".format(minutes) + "{}s".format(seconds)
     elif (seconds >= 0):
-        result = "{}s".format(seconds)
+        result = "00h00m{}s".format(seconds)
 
     # result = ("{}d".format(days) if days else "") + \
     #          ("{}h".format(hours) if hours else "") + \
