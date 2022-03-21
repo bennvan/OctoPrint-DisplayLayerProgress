@@ -27,7 +27,7 @@ plugin_author = "Olli"
 plugin_author_email = "ollisgit@gmail.com"
 
 # The plugin's homepage URL. Can be overwritten within OctoPrint's internal data via __plugin_url__ in the plugin module
-plugin_url = "https://github.com/OllisGit/OctoPrint-DisplayLayerProgress"
+plugin_url = "https://github.com/bennvan/OctoPrint-DisplayLayerProgress"
 
 # The plugin's license. Can be overwritten within OctoPrint's internal data via __plugin_license__ in the plugin module
 plugin_license = "AGPLv3"
